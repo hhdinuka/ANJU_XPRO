@@ -2,22 +2,21 @@ const os = require("os");
 const packageJson = require("./package.json"); // Get package details
 
 module.exports = {
-  BOTNAME: "© PODIYA XR-PRO 💃",
-  OWNERNAME: "MR.PEKSHA",
-  OWNERNUMBER: "94757662634",
+  BOTNAME: "© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚",
+  OWNERNAME: "MR.RASHMIKA",
+  OWNERNUMBER: "94717775628",
   FOOTER: `
-> PODIYA XPRO
-> Developed by Mr. Peksha
-> GitHub Repository: github.com/Mrpeksha/PODIYA_XPRO
+> QUEEN ANJU XPRO
+> Developed by Mr. Rashmika
+> GitHub Repository: github.com/Mrrashmika/QUEEN_ANJU_xPro
 Premium Version | Advanced Features | Secure & Reliable
-2025 PODIYA XPRO. All rights reserved.
+2025 QUEEN ANJU XPRO. All rights reserved.
     `.trim(),
   //====================menu=================================
   MENUMSG: function (pushname, runtime, config) {
     return `
-🧚‍♂️⃟🩵 © PODIYA-XR ᴾᴿᴼ 💚 
-     𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓 🧚‍♂️⃟🩵
-✘◍ ꜱᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴛ.
+🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚 🧚‍♂️⃟🩵
+✘◍ ꜱᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴛ. 
 ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ʙᴏᴛ.
 
 ┏━━━━❮ 📆 ᴛᴏ ᴅᴀʏ 📆❯━━━━
@@ -31,21 +30,21 @@ Premium Version | Advanced Features | Secure & Reliable
 ┃
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
-┃🗣️ 𝚄𝚜𝚎𝚛 : ${peksha-rasajana}
+┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
 ┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
-┃📟 𝙷𝚘𝚜𝚝 : ${os.peksha}
-┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪...}
+┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
+┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
 ┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE}
 ┃🍁 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
       2
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
-> PODIYA-XR MD CREATED BY MR.PEKSHA💚.....
-> *© DARKSHADOW-CINEMA-TEAM.* 
+> Qᴜᴇᴇɴ ᴀɴᴊᴜ ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ .....
+> © 𝐌𝐑 𝐑𝐀𝐒𝐇𝐌𝐈𝐊𝐀 𝐎𝐅𝐂 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
         `.trim();
   },
   REACTMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
@@ -83,7 +82,7 @@ Premium Version | Advanced Features | Secure & Reliable
   //======================download============================
   TIKTOK: function (title, author, q) {
     return `
-🎟️ *𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD TIKTOK DOWNLOADER* 🎟️
+🎟️ *QUEEN ANJU-MD TIKTOK DOWNLOADER* 🎟️
 
 🔢 *Please reply with the number you want to select:*
 
@@ -94,7 +93,7 @@ URL    * ${q}
   },
   FACEBOOK: function (title, q) {
     return `
-💢 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD FB DOWNLOADER 💢
+💢 QUEEN ANJU-MD FB DOWNLOADER 💢
     
 🎞 TITLE 🎞 ${title}
 
@@ -103,7 +102,7 @@ Fb-Url: -=-${q}
   },
   TWITTER: function (desc, q) {
     return `
-💢 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD TWITTER DOWNLOADER 💢
+💢 QUEEN ANJU-MD TWITTER DOWNLOADER 💢
 
 📝 Description: ${desc || "No description"}
 
@@ -115,7 +114,7 @@ Twitter URL: ${q}
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
+🧚‍♂️⃟🩵 𝐐𝐔𝐄𝐄𝐍 𝐀𝐍𝐉𝐔 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
@@ -130,11 +129,12 @@ Twitter URL: ${q}
 ┃
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 𝗦𝘁𝗮𝘁𝘂𝘀 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 📝❯━━━
-┃🗣️ 𝚄𝚜𝚎𝚛 : ${config.js}
+┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
+┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${hostname}
-┃📟 𝙷𝚘𝚜𝚝 : ${os.𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪}
+┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
 ┃⚙️ 𝙼𝚘𝚍𝚎 : ${config.MODE}
 ┃💻 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
@@ -142,8 +142,7 @@ Twitter URL: ${q}
     )}MB / ${Math.round(require("os").totalmem / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 
-💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪...! ✨
-
+💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
         `.trim();
   },
   //====================movie======================================
@@ -155,7 +154,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${movieData.title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${movieData.rating?.value || "𝙽/𝙰"} ★
@@ -166,8 +165,7 @@ Twitter URL: ${q}
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* 𝘾𝙝𝙚𝙘𝙠 𝙞𝙩 𝙤𝙪𝙩 → ${title}
        
@@ -180,8 +178,7 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 📺 *𝚃𝚅 𝚂𝚑𝚘𝚠:* ${movieResponse.episodeInfo?.title || "𝙽/𝙰"}
 🎞️ *𝙴𝚙𝚒𝚜𝚘𝚍𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}
@@ -190,8 +187,7 @@ Twitter URL: ${q}
   },
   CINETVSHOWALLDL: function (movieData) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝚃𝚒𝚝𝚕𝚎:* ${movieData.data.title}
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${movieData.data.releaseDate}
@@ -200,16 +196,14 @@ Twitter URL: ${q}
   },
   SIMNHALAMOVIE: function (title) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
         `.trim();
   },
   AWAMOVIE: function (title, releaseDate, country) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${releaseDate}  
@@ -218,8 +212,7 @@ Twitter URL: ${q}
   },
   ANIMEMOVIE: function (title, releaseDate, country, duration) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 ✨ ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${releaseDate}  
@@ -229,8 +222,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:*  ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
@@ -240,9 +232,7 @@ Twitter URL: ${q}
   },
   ADULTMOVIE: function (title, rating, description) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
-
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
 ──────────────────
 ✨ *Title:* ${title}
 ⭐ *Rating:* ${rating}
@@ -255,8 +245,7 @@ ${description}
   },
   ANIMOMOVIE: function (movieData) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* 
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
         
 ✨ ${movieData.title}  
 ⭐ Description:${movieData.description} 
@@ -266,8 +255,7 @@ ${description}
   },
   FILMPOMOVIE: function (title, rating, year, duration) {
     return `
-
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』*   
+🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
 
 ✨ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* ${title}
 ⭐ *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating}
@@ -275,8 +263,7 @@ ${description}
 ⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${duration}
         `.trim();
   },
-  MVINFOCAPTION: 
-🎬 *『 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪-MD CINEMA 』* \n\n",
+  MVINFOCAPTION: "🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿\n\n",
   //=====================youtube===========================================
   SONG: function (data) {
     return `
@@ -289,9 +276,9 @@ ${description}
 • 👁️ *Views:* ${data.views}
 • 📅 *Uploaded On:* ${data.ago}
 • 🔗 *Link:* ${data.url}
-         
-🎧 Enjoy your music with 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪...Bot  
-❤️ Created by peksha-rasanjana
+          
+🎧 Enjoy your music with Queen Anju Bot  
+❤️ Created by Janith Rashmika
         `.trim();
   },
   YTMP3: function (data) {
@@ -304,7 +291,7 @@ ${description}
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url}
 
-🎬 *Enjoy the video brought to you by 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪...Bot!* 
+🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
         `.trim();
   },
   VIDEO: function (data) {
@@ -319,8 +306,8 @@ ${description}
 • 📅 *Uploaded On:* ${data.ago}
 • 🔗 *Link:* ${data.url}
           
-🎧 Enjoy your music with 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪...Bot  
-❤️ Created by peksha-rasanjanap
+🎧 Enjoy your music with Queen Anju Bot  
+❤️ Created by Janith Rashmika
         `.trim();
   },
   YTMP4: function (data) {
@@ -328,12 +315,12 @@ ${description}
 🎥 *MP4 Download Found!* 
 
 ➥ *Title:* ${data.title} 
-➥ *:* ${data.timestamp} 
+➥ *Duration:* ${data.timestamp} 
 ➥ *Views:* ${data.views} 
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *Enjoy the video brought to you by 𝄟≛⃝ 〽️R.💞𓆩PODIYA𓆪...Bot!* 
+🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
         `.trim();
   },
 };
