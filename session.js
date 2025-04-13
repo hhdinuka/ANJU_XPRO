@@ -40,12 +40,12 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~ydkkiDpB#7FBsBQpp2cx5v5bdEYIP43-UFRaMwfeehqX5BotRekY",
-    GITHUB_TOKEN: process.env.GITHUB_TOKEN || "YLyXQ0cMXKF59U9PB2ZboQJZKHAHxy1Re8u7",
-    GITHUB_USERNAME: process.env.GITHUB_USERNAME || "hhdinuka",
+    SESSION_ID: process.env.SESSION_ID || "your session id",
+    GITHUB_TOKEN: process.env.GITHUB_TOKEN || "github token without ghp_",
+    GITHUB_USERNAME: process.env.GITHUB_USERNAME || "github username",
     SUDO: process.env.SUDO ? process.env.SUDO.split(",") : ["94717775628", "94758775628"],
     PORT: process.env.PORT || "8000",
     SESSION_DIR: process.env.SESSION_DIR || "session",
-    FOOTER: process.env.FOOTER || "> *D A R K S H A D O W X T E A M*" 
+    FOOTER: process.env.FOOTER || "> QUEEN ANJU XPRO\n> Developed by Mr. Rashmika\n> GitHub Repository: github.com/Mrrashmika/QUEEN_ANJU_xPro\n\ud83c\udf1f Premium Version | Advanced Features | Secure & Reliable \ud83c\udf1f\n\u00a9 2025 QUEEN ANJU XPRO. All rights reserved." 
   };
   
