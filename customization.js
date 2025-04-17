@@ -2,21 +2,20 @@ const os = require("os");
 const packageJson = require("./package.json"); // Get package details
 
 module.exports = {
-  BOTNAME: "© 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚",
-  OWNERNAME: "MR.RASHMIKA",
-  OWNERNUMBER: "94717775628",
+  BOTNAME: "© 𝙿𝙾𝙳𝙸𝚈𝙰 𝚇ᵖʳᵒ ✌︎",
+  OWNERNAME: "MR.PEKSHA",
+  OWNERNUMBER: "94740707157",
   FOOTER: `
-> QUEEN ANJU XPRO
-> Developed by Mr. Rashmika
-> GitHub Repository: github.com/Mrrashmika/QUEEN_ANJU_xPro
-Premium Version | Advanced Features | Secure & Reliable
-2025 QUEEN ANJU XPRO. All rights reserved.
+> 𝐏𝐎𝐃𝐈𝐘𝐀 𝐗^𝐏𝐑𝐎
+> Developed by Mr. Peksha
+> GitHub Repository: github.com/Mrpeksha/PODIYA_xPro
+Premium Version 
     `.trim(),
   //====================menu=================================
   MENUMSG: function (pushname, runtime, config) {
     return `
-🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 💚 🧚‍♂️⃟🩵
-✘◍ ꜱᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴛ. 
+🧚‍♂️⃟💞 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝕏ᴾᴿᴼ  🧚‍♂️⃟💞
+☔︎◍ ꜱᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴛ. 
 ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴜꜱɪɴɢ ʙᴏᴛ.
 
 ┏━━━━❮ 📆 ᴛᴏ ᴅᴀʏ 📆❯━━━━
@@ -31,7 +30,7 @@ Premium Version | Advanced Features | Secure & Reliable
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
+┃🤖 𝙱𝚘𝚝 : © 𝙿𝙾𝙳𝙸𝚈𝙰 𝕏ᵖʳᵒ 𝚅5 V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
@@ -43,25 +42,25 @@ Premium Version | Advanced Features | Secure & Reliable
       2
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
-> Qᴜᴇᴇɴ ᴀɴᴊᴜ ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ .....
-> © 𝐌𝐑 𝐑𝐀𝐒𝐇𝐌𝐈𝐊𝐀 𝐎𝐅𝐂 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
+> 𝙿𝙾𝙳𝙸𝚈𝙰 ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ .....
+> © 𝐌𝐑 𝐏𝐄𝐊𝐒𝐇𝐀 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
         `.trim();
   },
-  REACTMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  SEARCHMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  HENTAIMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗛𝗘𝗡𝗧𝗔𝗜 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  DOWNLOADMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  MOVIEMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗠𝗢𝗩𝗜𝗘 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  GROUPMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  OWNERMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  CONVERTMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  SETTINGSMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  NSFWMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗡𝗦𝗙𝗪 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  MAINMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🧚‍♂️⃟🩵",
-  FUNMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  AIMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗔𝗜 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  LOGOMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
-  USEFULLMENU: "🧚‍♂️⃟🩵 © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨 🧚‍♂️⃟🩵",
+  REACTMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗥𝗘𝗔𝗖𝗧𝗜𝗢𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  SEARCHMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗦𝗘𝗔𝗥𝗖𝗛 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  HENTAIMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗛𝗘𝗡𝗧𝗔𝗜 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  DOWNLOADMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  MOVIEMENU: "🧚‍♂️❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗠𝗢𝗩𝗜𝗘 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  GROUPMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗚𝗥𝗢𝗨𝗣 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  OWNERMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  CONVERTMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗖𝗢𝗡𝗩𝗘𝗥𝗧 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  SETTINGSMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  NSFWMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗡𝗦𝗙𝗪 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  MAINMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗠𝗔𝗜𝗡 𝗛𝗨𝗕 🧚‍♂️⃟❤️‍🔥",
+  FUNMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗙𝗨𝗡 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  AIMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗔𝗜 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  LOGOMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
+  USEFULLMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
   //=====================menu-img's================================
   ALLMENUIMG: "./src/media/LOGOS/allmenu.jpg",
   REACTMENUIMG: "./src/media/LOGOS/react.jpg",
@@ -82,7 +81,7 @@ Premium Version | Advanced Features | Secure & Reliable
   //======================download============================
   TIKTOK: function (title, author, q) {
     return `
-🎟️ *QUEEN ANJU-MD TIKTOK DOWNLOADER* 🎟️
+🎟️ *PODIYA✓XR-MD TIKTOK DOWNLOADER* 🎟️
 
 🔢 *Please reply with the number you want to select:*
 
@@ -93,7 +92,7 @@ URL    * ${q}
   },
   FACEBOOK: function (title, q) {
     return `
-💢 QUEEN ANJU-MD FB DOWNLOADER 💢
+💢 PODIYA✓XR-MD FB DOWNLOADER 💢
     
 🎞 TITLE 🎞 ${title}
 
@@ -102,7 +101,7 @@ Fb-Url: -=-${q}
   },
   TWITTER: function (desc, q) {
     return `
-💢 QUEEN ANJU-MD TWITTER DOWNLOADER 💢
+💢 PODIYA✓XR-MD TWITTER DOWNLOADER 💢
 
 📝 Description: ${desc || "No description"}
 
@@ -114,7 +113,7 @@ Twitter URL: ${q}
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
-🧚‍♂️⃟🩵 𝐐𝐔𝐄𝐄𝐍 𝐀𝐍𝐉𝐔 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 🧚‍♂️⃟🩵
+☞︎︎︎❤️‍🔥 𝐏𝐎𝐃𝐈𝐘𝐀✓𝐗𝐑 𝐌𝐃 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 ❤️‍🔥☜︎︎︎
 
 ✘◍ 𝗜'𝗺 𝗔𝗹𝗶𝘃𝗲, 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗔𝘀𝗸𝗶𝗻𝗴!
 
@@ -130,7 +129,7 @@ Twitter URL: ${q}
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 𝗦𝘁𝗮𝘁𝘂𝘀 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝚀𝚄𝙴𝙴𝙽 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ V${packageJson.version}
+┃🤖 𝙱𝚘𝚝 : © 𝙿𝙾𝙳𝙸𝚈𝙰 𝚇-𝙿𝚁𝙾 𝚅5 V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${hostname}
@@ -277,8 +276,8 @@ ${description}
 • 📅 *Uploaded On:* ${data.ago}
 • 🔗 *Link:* ${data.url}
           
-🎧 Enjoy your music with Queen Anju Bot  
-❤️ Created by Janith Rashmika
+🎧 Enjoy your music with podiyas Bot  
+❤️ Created by peksha rasanjana
         `.trim();
   },
   YTMP3: function (data) {
@@ -291,7 +290,7 @@ ${description}
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url}
 
-🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
+🎬 *Enjoy the video brought to you by podiyas Bot!* 
         `.trim();
   },
   VIDEO: function (data) {
@@ -306,8 +305,8 @@ ${description}
 • 📅 *Uploaded On:* ${data.ago}
 • 🔗 *Link:* ${data.url}
           
-🎧 Enjoy your music with Queen Anju Bot  
-❤️ Created by Janith Rashmika
+🎧 Enjoy your music with podiyas Bot  
+❤️ Created by peksha rasanjana
         `.trim();
   },
   YTMP4: function (data) {
@@ -320,7 +319,7 @@ ${description}
 ➥ *Uploaded On:* ${data.ago} 
 ➥ *Link:* ${data.url} 
 
-🎬 *Enjoy the video brought to you by Queen Anju Bot!* 
+🎬 *Enjoy the video brought to you by podiyas Bot!* 
         `.trim();
   },
 };
