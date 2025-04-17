@@ -9,7 +9,6 @@ module.exports = {
 > 𝐏𝐎𝐃𝐈𝐘𝐀 𝐗^𝐏𝐑𝐎
 > Developed by Mr. Peksha
 > GitHub Repository: github.com/Mrpeksha/PODIYA_xPro
-Premium Version 
     `.trim(),
   //====================menu=================================
   MENUMSG: function (pushname, runtime, config) {
@@ -42,7 +41,7 @@ Premium Version
       2
     )}MB / ${Math.round(os.totalmem() / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
-> 𝙿𝙾𝙳𝙸𝚈𝙰 ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ʀᴀꜱʜᴍɪᴋᴀ .....
+> 𝙿𝙾𝙳𝙸𝚈𝙰 ᴍᴅ ᴄᴛᴇᴀᴛᴇ ʙʏ ᴍʀ ᴘᴇᴋsʜᴀ.....
 > © 𝐌𝐑 𝐏𝐄𝐊𝐒𝐇𝐀 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐌𝐄𝐍𝐓. 💗
         `.trim();
   },
