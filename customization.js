@@ -109,7 +109,7 @@ Twitter URL: ${q}
   },
   //=================main==================================
   ALIVEIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
-  ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
+  ALIVEVOICE: "https://youtu.be/jMSXem_bUFc?si=cBNhBpgfn63Lu1El",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
 ☞︎︎︎❤️‍🔥 𝐏𝐎𝐃𝐈𝐘𝐀✓𝐗𝐑 𝐌𝐃 𝐀𝐋𝐈𝐕𝐄 𝐒𝐓𝐀𝐓𝐔𝐒 ❤️‍🔥☜︎︎︎
