@@ -30,7 +30,7 @@ Premium Version
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 ᴅᴇᴛᴇʟᴇꜱ 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝙿𝙾𝙳𝙸𝚈𝙰 𝕏ᵖʳᵒ 𝚅5 V${packageJson.version}
+┃🤖 𝙱𝚘𝚝 : © 𝙿𝙾𝙳𝙸𝚈𝙰 𝕏ᵖʳᵒ V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
@@ -62,22 +62,22 @@ Premium Version
   LOGOMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝙰𝙽𝙹𝚄 𝗑ᴾᴿᴼ 𝗟𝗢𝗚𝗢 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
   USEFULLMENU: "🧚‍♂️⃟❤️‍🔥 © 𝙿𝙾𝙳𝙸𝚈𝙰 𝗑ᴾᴿᴼ 𝗧𝗢𝗢𝗟𝗦 𝗠𝗘𝗡𝗨 🧚‍♂️⃟❤️‍🔥",
   //=====================menu-img's================================
-  ALLMENUIMG: "./src/media/LOGOS/allmenu.jpg",
-  REACTMENUIMG: "./src/media/LOGOS/react.jpg",
-  SEARCHMENUIMG: "./src/media/LOGOS/search.jpg",
-  HENTAIMENUIMG: "./src/media/LOGOS/hentaimenu.jpg",
-  DOWNLOADMENUIMG: "./src/media/LOGOS/dl.jpg",
-  MOVIEMENUIMG: "./src/media/LOGOS/movie.jpg",
-  GROUPMENUIMG: "./src/media/LOGOS/group.jpg",
-  OWNERMENUIMG: "./src/media/LOGOS/owner.jpg",
-  CONVERTMENUIMG: "./src/media/LOGOS/convert.jpg",
-  SETTINGSMENUIMG: "./src/media/LOGOS/settings.jpg",
-  NSFWMENUIMG: "./src/media/LOGOS/nsfw.jpg",
-  MAINMENUIMG: "./src/media/LOGOS/main.jpg",
-  FUNMENUIMG: "./src/media/LOGOS/aifun.jpg",
-  AIMENUIMG: "./src/media/LOGOS/ai.jpg",
-  LOGOMENUIMG: "./src/media/LOGOS/mokak.jpg",
-  USEFULLMENUIMG: "./src/media/LOGOS/useful.jpg",
+  ALLMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  REACTMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  SEARCHMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  HENTAIMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  DOWNLOADMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  MOVIEMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  GROUPMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  OWNERMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  CONVERTMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  SETTINGSMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  NSFWMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  MAINMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  FUNMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  AIMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  LOGOMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
+  USEFULLMENUIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
   //======================download============================
   TIKTOK: function (title, author, q) {
     return `
@@ -109,7 +109,7 @@ Twitter URL: ${q}
         `.trim();
   },
   //=================main==================================
-  ALIVEIMG: "./src/media/LOGOS/alive.jpg",
+  ALIVEIMG: "https://i.ibb.co/cKPJPQN1/Rashmika-Ofc.jpg",
   ALIVEVOICE: "./src/media/Auto_voice/alive.aac",
   ALIVEMSG: function (hostname, config, pushname, runtime) {
     return `
@@ -129,7 +129,7 @@ Twitter URL: ${q}
 ┗━━━━━━━━━━━━━━━
 ┏━━━━❮📝 𝗦𝘁𝗮𝘁𝘂𝘀 𝗗𝗲𝘁𝗮𝗶𝗹𝘀 📝❯━━━
 ┃🗣️ 𝚄𝚜𝚎𝚛 : ${pushname}
-┃🤖 𝙱𝚘𝚝 : © 𝙿𝙾𝙳𝙸𝚈𝙰 𝚇-𝙿𝚁𝙾 𝚅5 V${packageJson.version}
+┃🤖 𝙱𝚘𝚝 : © 𝙿𝙾𝙳𝙸𝚈𝙰 𝚇-𝙿𝚁𝙾 V${packageJson.version}
 ┃📜 𝙿𝚛𝚎𝚏𝚒𝚡 : ${config.PREFIX}
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${hostname}
@@ -141,7 +141,7 @@ Twitter URL: ${q}
     )}MB / ${Math.round(require("os").totalmem / 1024 / 1024)}MB
 ┗━━━━━━━━━━━━━━━
 
-💬 ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚚𝚞𝚎𝚎𝚗 𝗮𝗻𝗷𝘂! ✨
+✈︎ ᴇɴᴏʏ ᴛʜᴇ 𝗯𝗼𝘁 ᴏ𝗳 𝚙𝚘𝚍𝚒𝚢𝚊 𝚡ᵖʳᵒ! ☘︎
         `.trim();
   },
   //====================movie======================================
